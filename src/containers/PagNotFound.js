@@ -8,12 +8,12 @@ const PageNotFound = () => {
     useEffect(() => {
         setTimeout(() => {
             history.push("/");
-        }, 3000);
+        }, 5000);
     }, []);
 
     return ( 
         <div style= {{ textAlign: "center"}}>
-            Page {location.pathname} not found, wait 3 seconds
+            Page {location.pathname} you are lost, no business here... Hold on and daddy quides you...
         </div>
     )
 }
