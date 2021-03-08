@@ -3,6 +3,7 @@ import React, {  useState } from 'react'
 const Input = (props) => {
     const [inputValue, setInputValue] = useState("")
 
+    // Input field determine if translation or sign in page
     return (
         <div className="input-container">
             <div>

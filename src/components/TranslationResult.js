@@ -5,6 +5,7 @@ const TranslationResults = (props) => {
         return <div className="sentence-divider"></div>
     }
     return (
+        // Choose the image from signs. use props to refere the letter
         <img
             id="sign"
             alt={props.sign}
